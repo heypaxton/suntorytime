@@ -1,0 +1,45 @@
+@import url("http://fonts.googleapis.com/css?family=Istok+Web|Playfair+Display+SC|Montserrat");
+
+body {
+	background: #f2f2f2 url('../img/bg.png') repeat;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+.container {
+	background: #f9f9f9;
+	padding: 20px 10px;
+	margin-top: 20px;
+	box-shadow: 0 1px 1px #ccc;
+	border-radius: 3px;
+	border: 1px solid #fff;
+}
+
+.well {
+	background: #999;
+}
+
+ul {
+	margin-left: 0;
+}
+
+ul li { list-style-type: none; }
+
+.menu li {
+	display: inline;
+}
+
+#orders li {
+	margin-bottom: 20px;
+}
+
